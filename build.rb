@@ -9,5 +9,14 @@
 require "pry"
 
  File.open("styles.css",  "a+") do |file|
-	file.write "Writing to files in Ruby is simple."
+ 	buttons = File.readlines("buttons.css").each do |line|
 	end
+	type = File.readlines("type.css").each do |line|
+	end
+	layout = File.readlines("layout.css").each do |line|
+	end
+	file.write buttons.join(" ") 
+	file.write type.join(" ") 
+	file.write layout.join(" ") 
+	end
+

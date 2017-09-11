@@ -1,1 +1,26 @@
-Writing to files in Ruby is simple.
+a {
+ 	text-decoration: none;
+ 	color: #B0DEEF;
+ }
+ a:hover {
+ 	color: #FF6600;
+ }body {
+ 	font-family: "Futura";
+ }
+ li {
+ 	list-style-type: none;
+ }.flex {
+ 	display: flex;
+ }
+ .justify-sb {
+ 	justify-content: space-between;
+ }
+ .align-i-c {
+ 	align-items: center;
+ }
+ .m-right {
+ 	margin-right: 30px;
+ }
+ body {
+ 	margin: 30px;
+ }
