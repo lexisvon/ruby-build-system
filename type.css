@@ -1,3 +1,6 @@
 body {
 	font-family: "Futura";
 }
+li {
+	list-style-type: none;
+}

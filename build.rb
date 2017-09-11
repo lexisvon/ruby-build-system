@@ -6,3 +6,8 @@
 # Get the String contents of each file. Store them all, one by one, in a new String.
 
 # Then output that String into a single styles.css file. 
+require "pry"
+
+ File.open("styles.css",  "a+") do |file|
+	file.write "Writing to files in Ruby is simple."
+	end
